@@ -1,0 +1,131 @@
+/* Write your CSS here */
+.main-container {
+  padding: 20px;
+}
+
+.name-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.name-text {
+  font-family: 'Roboto';
+  color: #475569;
+}
+.description {
+  font-family: 'Roboto';
+  text-align: center;
+  color: #475569;
+  font-size: 14px;
+}
+.money-manager {
+  font-family: 'Roboto';
+  color: #0b69ff;
+}
+
+.form-style {
+  border: 1px solid #cbd5e1;
+
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.add-transaction {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #334155;
+}
+
+.title-text {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 13px;
+  color: #7e858e;
+}
+
+.form-text-style {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.select-style {
+  width: 100%;
+  border: 1px solid #d7dfe9;
+  border-radius: 5px;
+  height: 30px;
+  outline: none;
+  font-family: 'Roboto';
+}
+
+.add-button {
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  color: white;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.transaction-container {
+  list-style-type: none;
+  padding-left: 0px;
+  border-top: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+
+  border-right: 1px solid #cbd5e1;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.transaction-item {
+  border-bottom: 1px solid #cbd5e1;
+  align-items: center;
+  display: flex;
+  padding: 5px;
+}
+
+.item-style {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.un-order-list {
+  list-style-type: none;
+  padding-left: 0px;
+  border: 1px solid #cbd5e1;
+  border-bottom: none;
+
+  margin-top: 10px;
+}
+
+.list-item {
+  display: flex;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.list-content {
+  width: 70px;
+}
+
+.list-card {
+  border: 1px solid #cbd5e1;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.history-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.extra-style {
+  font-weight: bold;
+}

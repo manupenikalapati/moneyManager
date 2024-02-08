@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.money-details-card {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.money-details-item {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+  border-radius: 15px;
+  padding: 15px;
+}
+.your-balance-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #7e858e;
+}
+
+.balance-image {
+  height: 75px;
+  width: 75px;
+  margin-right: 20px;
+}
+
+.rupees-text {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: bold;
+  color: #334155;
+}
+
+.income-style {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.expenses-style {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
